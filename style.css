@@ -56,12 +56,18 @@ img{
     top: 180px;
     width: 100%;
     font-size: 2em;
-
 }
 
 .card{
     background-color: rgb(255, 255, 255);
+    transition-timing-function: ease-in-out;
+    transition: .4s;
 }
+
+.card:hover{
+    scale: 120%;
+}
+
 .card-text{
     text-align: center;
     color: rgb(0, 0, 0);
