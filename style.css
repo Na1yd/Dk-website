@@ -9,15 +9,17 @@ img{
 
 .hero-image{
     background-image: url("Website_images/Dk_black.png");
-    height: 1520px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
+    width: 1800px
+    
 }
 
 .hero-text{
-    color: rgb(0, 0, 0);
-    position: absolute;
+    color: rgb(255, 255, 255);
     text-align: center;
     top: 180px;
     width: 100%;
@@ -27,10 +29,10 @@ img{
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 100px;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .info{
