@@ -1,5 +1,5 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Baskerville';
 }
 
 img{
@@ -14,9 +14,10 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
-    width: 1800px
-    
-}
+    transition: 1 0.5s ease;
+    width: 2000px;
+    z-index: -1;  
+}   
 
 .hero-text{
     color: rgb(255, 255, 255);
@@ -73,4 +74,10 @@ img{
 .card-text{
     text-align: center;
     color: rgb(0, 0, 0);
+}
+.info-other{
+    color:  rgb(255, 255, 255);
+    top: 180px;
+    width: 100%;
+    font-size: 3em;
 }
