@@ -9,13 +9,13 @@ img{
 
 .hero-image{
     background-image: url("Website_images/Dk_black.png");
-    height: 400px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
     transition: 1 0.5s ease;
-    width: 2000px;
+    width: 1890px;
     z-index: -1;  
 }   
 
@@ -80,4 +80,11 @@ img{
     top: 180px;
     width: 100%;
     font-size: 3em;
+}
+
+.a{
+    color:  #30D5C8;
+    top: 180px;
+    width: 100%;
+    font-size: 0.6em;
 }
