@@ -1,11 +1,13 @@
 *{
-    font-family: 'Baskerville';
+    font-family: 'Helvetica';
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 50px;
 }
+
 
 .hero-image{
     background-image: url("Website_images/Dk_black.png");
@@ -64,22 +66,26 @@ img{
 .card{
     background-color: rgb(255, 255, 255);
     transition-timing-function: ease-in-out;
-    transition: .4s;
+    transition: 10s;
+    border-radius: 50px;
 }
 
 .card:hover{
     scale: 120%;
+    rotate: 2160deg;
 }
 
 .card-text{
     text-align: center;
     color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
 .info-other{
     color:  rgb(255, 255, 255);
     top: 180px;
     width: 100%;
     font-size: 3em;
+    border-radius: 10px;
 }
 
 .a{
